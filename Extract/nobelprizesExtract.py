@@ -1,11 +1,19 @@
-import requests
-url = "https://ipinfo.io/190.60.194.114/json"
+import requests 
+import pandas as pd 
+import numpy as np 
 
-try:
-    response = requests.get(url)
-    data = response.json()
-    print(data)
+
+def parameters():
+
+def queries():
+
+def response():
+
+class nobelprizesExtractor:
+    def __init__(self, csv_path)
+        self.csv = csv_path
+    def queries(self)
+        data=pd.read_csv(self.csv)
+    def response ()
+        return data.head(5)
     
-
-except:
-    print("Hubo un error")
